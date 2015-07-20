@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="./style.css">
+
+	<title>Application To Work</title>
+	<h1>Hello potential applications to our company.
+	We're pleased that you've found our company in the crowded space that is SF. Please give us your name,
+	the position you would like to fill, and your minimum salary requirement. </h1>
+</head>
+<body>
+	<form action="/application", method="post">
+		<label>First Name:
+			<input type="text" name="firstname">
+		</label> 
+		<br>
+		<label>Last Name:
+			<input type="text" name="lastname">
+		</label>
+		<br>
+		<br>
+		<label>Select Job:
+		<select name="jobselection">
+			<option value="softwareengineer">Software Engineer</option>
+			<option value="qaengineer">QA Engineer</option>
+			<option value="productmanager">Product Manager</option>
+		</select>
+		<br>
+		<br>
+		<label>Minimum Salary:
+			<input type="text" name="salary">
+		<br>
+		<br>
+	<input type="submit">
+	</form>
+</body>
+</html>
